@@ -1,0 +1,101 @@
+body {
+  background-color: black;
+  font-family: Arial;
+}
+
+.space {
+  color: white;
+  font-size : 45px;
+  margin-top: 15px;
+}
+
+.number-button {
+  color: white;
+  background-color: #313131;
+  padding: 15px 23px;
+  border: none;
+  border-radius: 110px;
+  font-size: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.number-button1 {
+  color: white;
+  background-color: #313131;
+  padding: 15px 27px;
+  border: none;
+  border-radius: 110px;
+  font-size: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.buttons-container {
+  margin-top: -27px;
+}
+
+.sign-button {
+  color: white;
+  background-color: #ff9500;
+  padding: 15px 23px;
+  border: none;
+  border-radius: 110px;
+  font-size: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.sign-button1 {
+  color: white;
+  background-color: #ff9500;
+  padding: 15px 22px;
+  border: none;
+  border-radius: 110px;
+  font-size: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.sign-button2 {
+  color: white;
+  background-color: #ff9500;
+  padding: 15px 26px;
+  border: none;
+  border-radius: 110px;
+  font-size: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.sign-button3 {
+  color: white;
+  background-color: #ff9500;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 110px;
+  font-size: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.sign-button4 {
+  color: white;
+  background-color: #ff9500;
+  padding: 15px 26px;
+  border: none;
+  border-radius: 110px;
+  font-size: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.clear-button {
+  color: white;
+  background-color: #313131;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 1110px;
+  font-size: 17px;
+  cursor: pointer;
+}

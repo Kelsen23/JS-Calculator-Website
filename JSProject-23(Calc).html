@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Calculator</title>
+
+<link rel = "stylesheet" href="JSCalculator.css">
+
+</head>
+<body>
+
+  <p class="calculationSpace space"></p>
+
+  <div class="buttons-container">
+
+  <p>
+
+<button onclick=" updateCalculation ('1'); " class="number-button">1</button>
+
+<button onclick=" updateCalculation ('2');" class="number-button">2</button>
+
+<button onclick=" updateCalculation ('3'); " class="number-button">3</button>
+
+<button onclick=" updateCalculation (' + '); " class="sign-button1">+</button>
+
+  </p>
+
+  <p>
+
+<button onclick=" updateCalculation ('4'); " class="number-button">4</button>
+
+<button onclick=" updateCalculation ('5'); " class="number-button">5</button>
+
+<button onclick=" updateCalculation ('6'); " class="number-button">6</button>
+
+<button onclick=" updateCalculation (' - '); " class="sign-button2">-</button>
+
+  </p>
+
+  <p>
+
+<button onclick=" updateCalculation ('7'); " class="number-button">7</button>
+
+<button onclick=" updateCalculation ('8'); " class="number-button">8</button>
+
+<button onclick=" updateCalculation ('9'); " class="number-button">9</button>
+
+<button onclick=" updateCalculation (' * '); " class="sign-button3">*</button>
+
+  </p>
+
+  <p>
+
+<button onclick=" updateCalculation ('0'); " class="number-button">0</button>
+
+<button onclick=" updateCalculation ('.'); " class="number-button1">.</button>
+
+<button onclick="calculation = eval(calculation);
+  console.log(calculation);
+  document.querySelector('.calculationSpace').innerHTML = `${calculation}`;" class="number-button">=</button>
+
+<button onclick=" updateCalculation (' / '); " class="sign-button4">/</button>
+
+  </p>
+
+</div>
+
+     <button onclick=" calculation = '';
+      console.log(calculation);
+      document.querySelector('.calculationSpace').innerHTML = `${calculation}`;" class="clear-button">Clear</button>
+
+
+
+<script src="JSCalculator.js"></script>
+
+</body>
+</html>
